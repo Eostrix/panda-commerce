@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Commerce</title>
+    <!-- bootstrip-cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="" >
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Subscribe</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!-- image slider -->
+        <section class="container my-5">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner bg-gradient rounded p-5" style="background-color: #FEEAE9;">
+              <div class="carousel-item active">
+                <div class="row d-flex align-items-center">
+                  <div class="col-lg-7">
+                    <h1>Cool Dude Headphone</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic aliquam quae rem quisquam unde molestias ab et minima dolorem. Voluptas similique qui dolores laudantium optio cum eum ducimus, vero enim.
+                    </p>
+                    <h1>$420</h1>
+                    <button class="btn btn-warning"> Buy Now</button>
+                  </div>
+                  <div class="col-lg-5">                    
+                    <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>                
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex align-items-center">
+                  <div class="col-lg-7">
+                    <h1>Mi LED TV 4A PRO 32</h1>
+                    <p>
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                    <h1>$1289</h1>
+                    <button class="btn btn-warning">But Now</button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>                
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex align-items-center">
+                  <div class="col-lg-7">
+                    <h1>X-Box for your living room</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eum beatae corrupti architecto quae ullam hic accusantium voluptatem error aspernatur officiis, eveniet ratione reiciendis in a esse dignissimos? Voluptate, nostrum!
+                    </p>
+                    <h1>$600</h1>
+                    <button class="btn btn-warning">But Now</button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>                
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+    </header>
+    <body>
+      <!-- catagories -->
+      <section class="container my-5">
+        <h1>Categories</h1>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-3 border bg-gradient bg-warning d-flex align-items-center justify-content-between">
+              <h1 class="text-white">Watch</h1>
+              <img src="images/categories/watch.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-3 border bg-gradient d-flex align-items-center justify-content-between" style="background-color:#FF589B; ">
+              <h1 class="text-white">Bag</h1>
+              <img src="images/categories/bag.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-3 border bg-gradient bg-primary d-flex align-items-center justify-content-between">
+              <h1 class="text-white">Shoe</h1>
+              <img src="images/categories/shoes.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+    <footer>
+
+    </footer>
+
+    <!-- bootstrip-js-script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
